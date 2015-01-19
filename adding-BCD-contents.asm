@@ -1,4 +1,3 @@
-false
 // adds the BCD contents of a block of memory
 	   LXI H,C080
 	   MOV B,M
