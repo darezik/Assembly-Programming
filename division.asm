@@ -1,4 +1,3 @@
-false
 // program which divides two hex numbers
 	   LXI H,C040
 	   MOV A,M
