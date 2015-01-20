@@ -1,4 +1,3 @@
-false
 	   LXI H,C050
 	   LXI B,C070
 	   MVI E,05
