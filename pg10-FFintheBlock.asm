@@ -1,4 +1,3 @@
-false
 	   LXI H,C050
 	   MVI A,FF
 	   MVI C,00
