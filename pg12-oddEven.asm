@@ -1,4 +1,3 @@
-false
 	   LXI H,C080
 	   MVI B,0A
 	   MVI C,00
