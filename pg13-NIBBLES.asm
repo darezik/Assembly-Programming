@@ -1,4 +1,3 @@
-false
 	   LXI H,C080
 	   MOV A,M
 	   MVI B,0F
