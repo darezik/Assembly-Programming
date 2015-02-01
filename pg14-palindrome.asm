@@ -1,4 +1,3 @@
-false
 	   LXI H,C040
 	   MOV A,M
 	   RLC
