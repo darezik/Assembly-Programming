@@ -1,4 +1,3 @@
-false
 	   LXI H,2000
 	   MOV B,M
 	   MVI C,00
