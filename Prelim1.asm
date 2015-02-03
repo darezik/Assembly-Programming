@@ -14,4 +14,4 @@ X2:	   DCR B
 	   MOV M,A
 	   INX H
 	   MOV M,C
-rst 1
+	   RST 1

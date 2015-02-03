@@ -1,18 +1,12 @@
 false
-	   LXI H,2000
-	   MOV B,M
-	   MVI C,00
-	   XRA A
+	   LXI H,3600
+	   MOV A,M
+	   INX H
+	   SUB M
+	   JNC X1
+	   CMA
+	   INR A
 
 X1:	   INX H
-	   ADC M
-	   JNC X2
-	   INR C
-
-X2:	   DCR B
-	   JNZ X1
-	   INX H
 	   MOV M,A
-	   INX H
-	   MOV M,C
-rst 1
+	   RST 1
